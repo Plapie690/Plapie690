@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" fill="none">
+  <title>Paul — Thoughtful tools for the Linux desktop</title>
+  <desc>A dark Omarchy-inspired banner with clear typography, fine weather contours, and an expressive sun-and-cloud illustration.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B1D2B"/>
+      <stop offset="1" stop-color="#202437"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientTransform="translate(1030 210) rotate(90) scale(220 280)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#89B4FA" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#89B4FA" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cloud" x1="951" y1="182" x2="1100" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#CDD6F4"/>
+      <stop offset="1" stop-color="#89A8E5"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="1057" y1="119" x2="1110" y2="207" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5D69B"/>
+      <stop offset="1" stop-color="#D8AE75"/>
+    </linearGradient>
+    <clipPath id="bounds"><rect width="1280" height="420" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1280" height="420" fill="url(#background)"/>
+    <rect x="750" width="530" height="420" fill="url(#halo)"/>
+    <g stroke="#89B4FA" stroke-opacity=".12" stroke-width="1">
+      <path d="M798-36C867 54 946 34 1015 16S1172-12 1308 66"/>
+      <path d="M820-5C883 78 957 61 1036 44S1205 12 1316 103"/>
+      <path d="M849 22C907 101 976 90 1056 75S1220 42 1324 137"/>
+      <path d="M795 410C874 332 962 340 1048 361S1211 421 1317 333"/>
+      <path d="M824 444C898 363 978 370 1065 393S1224 451 1326 369"/>
+    </g>
+    <path d="M64 77H1216" stroke="#CDD6F4" stroke-opacity=".12"/>
+    <text x="64" y="49" fill="#CDD6F4" font-family="DejaVu Sans Mono, monospace" font-size="15" letter-spacing="3">PAUL / PLAPIE690</text>
+    <circle cx="1197" cy="43" r="4" fill="#89B4FA"/>
+    <text x="60" y="173" fill="#E3E7F4" font-family="DejaVu Sans, sans-serif" font-weight="700" font-size="72" letter-spacing="-3">Useful tools.</text>
+    <text x="60" y="260" fill="#ABBFE7" font-family="DejaVu Sans, sans-serif" font-weight="700" font-size="72" letter-spacing="-3">Thoughtful details.</text>
+    <text x="64" y="309" fill="#A1A9C3" font-family="DejaVu Sans Mono, monospace" font-size="18">Making the Linux desktop feel more personal.</text>
+    <g font-family="DejaVu Sans Mono, monospace" font-size="12" letter-spacing="1.5">
+      <rect x="64" y="348" width="91" height="28" rx="6" stroke="#7889AC" stroke-opacity=".35"/>
+      <text x="81" y="367" fill="#BAC7E3">LINUX</text>
+      <rect x="165" y="348" width="111" height="28" rx="6" stroke="#7889AC" stroke-opacity=".35"/>
+      <text x="182" y="367" fill="#BAC7E3">OMARCHY</text>
+      <rect x="286" y="348" width="111" height="28" rx="6" stroke="#7889AC" stroke-opacity=".35"/>
+      <text x="303" y="367" fill="#BAC7E3">UI / UX</text>
+    </g>
+    <circle cx="1038" cy="218" r="134" stroke="#89B4FA" stroke-opacity=".11"/>
+    <circle cx="1038" cy="218" r="108" stroke="#89B4FA" stroke-opacity=".11" stroke-dasharray="3 10"/>
+    <ellipse cx="1038" cy="238" rx="177" ry="68" transform="rotate(-18 1038 238)" stroke="#89B4FA" stroke-opacity=".44"/>
+    <circle cx="885" cy="269" r="5" fill="#89B4FA"/>
+    <circle cx="1194" cy="199" r="3" fill="#89B4FA"/>
+    <g stroke="#F5D69B" stroke-opacity=".85" stroke-width="5" stroke-linecap="square">
+      <path d="M1082 98V87M1135 120L1144 111M1156 166H1168M1029 120L1020 111"/>
+    </g>
+    <circle cx="1082" cy="166" r="46" fill="url(#sun)"/>
+    <path d="M958 252C940 252 926 239 926 221C926 204 939 191 954 190C959 165 977 152 999 152C1022 152 1041 168 1046 190C1062 190 1075 203 1075 219C1075 237 1061 252 1043 252H958Z" fill="#6782B7"/>
+    <path d="M988 282C967 282 951 266 951 246C951 228 963 214 980 211C984 183 1005 166 1031 166C1059 166 1081 187 1083 213C1105 212 1122 228 1122 248C1122 267 1107 282 1088 282H988Z" fill="url(#cloud)"/>
+    <g stroke="#89B4FA" stroke-width="3" stroke-linecap="round" stroke-opacity=".55">
+      <path d="M962 317L957 329M990 327L985 339M1018 323L1013 335"/>
+    </g>
+    <rect x=".5" y=".5" width="1279" height="419" rx="23.5" stroke="#CDD6F4" stroke-opacity=".12"/>
+  </g>
+</svg>
